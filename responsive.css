@@ -1,0 +1,140 @@
+@media screen and (max-width: 576px) {
+  .nav-wrapper {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .links {
+    flex-direction: column;
+  }
+  /* nav end */
+
+  /* banner start */
+
+  .banner-wrapper {
+    flex-direction: column-reverse;
+  }
+  .banner-item-image {
+    width: 100%;
+  }
+
+  /* banner end */
+
+  /* gamer section start */
+
+  .gamer-items-wrapper {
+    flex-direction: column;
+  }
+
+  .gamer-item-image {
+    width: 100%;
+  }
+  .gamer-item-description {
+    width: 100%;
+  }
+
+  /* gamer section end */
+
+  /* online game cards start */
+
+  .online-games-title-and-description > h1 {
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+  }
+  .online-games-title-and-description > p {
+    font-size: 10px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .online-games-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  /* online game cards end */
+
+  /* play game online start */
+  .play-game-online-wrapper {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .play-game-online-item-images {
+    width: 90%;
+  }
+  .play-game-online-item-image-1 {
+    width: 100%;
+  }
+  .play-game-online-item-image-2 {
+    width: 100px;
+    bottom: -30px;
+    right: -40px;
+  }
+  .play-game-online-item-text {
+    width: 100%;
+    text-align: center;
+  }
+  .play-game-online-item-text > h2 {
+    font-size: 38px;
+    font-weight: 700;
+  }
+  .play-game-online-item-text > p {
+    font-size: 14px;
+  }
+
+  /* play game online end */
+
+
+/* games section start  */
+.games-section {
+    width: 100vw;
+    padding: 100px 0;
+  }
+.game-items-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  }
+
+  .game-item {
+    gap: 5px;
+  }
+  .game-item>img{
+    width: 20px;
+  }
+  .game-item > span {
+    color: #0b0223;
+    font-family: Work Sans;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: normal;
+  }
+
+
+
+/* games section end  */
+
+/* footer start */
+footer{
+    width: 100%;
+}
+.footer-links > ul , .footer-icons {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  }
+.footer-links-2>ul{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+}
+.footer-copy {
+    margin: 20px auto 0;
+    width: 50%;
+  
+  }
+.footer-copy > p {
+    font-size: 15px;
+    font-weight: 500;
+  }
+/* footer end */
+
+
+}

@@ -334,13 +334,10 @@ nav {
 /* footer start */
 footer {
   background: #0b0223;
-  padding: 100px;
   color: white;
-  text-align: center;
+  padding: 50px 0;
 }
 .footer-wrapper {
-  width: 50%;
-  margin: auto;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -363,20 +360,25 @@ footer {
   font-size: 30px;
 }
 .footer-links-2 {
+  margin-top: 50px;
+}
+.footer-links-2 > ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
   color: rgba(255, 255, 255, 0.6);
   text-align: center;
   font-family: Work Sans;
   font-size: 14px;
-  font-style: normal;
   font-weight: 500;
-  line-height: normal;
 }
 .footer-copy {
-  margin-top: 20px;
+  margin: 20px auto 0;
+  width: 45%;
+
 }
 .footer-copy > p {
   color: rgba(255, 255, 255, 0.6);
-  text-align: center;
   font-family: Work Sans;
   font-size: 14px;
   font-style: normal;
