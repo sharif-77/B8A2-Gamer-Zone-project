@@ -255,22 +255,27 @@ nav {
 .online-game>img {
   width: 100%;
   margin-bottom: 20px;
+  transition: all 1s;
+
 }
 .online-game{
   position: relative;
-  transition: all 5s;
-  
+  border-radius: 16px;
+  transition: all 2s;
 }
-.online-game>:hover {
 
+.online-game>img:hover {
   opacity: 0.3;
-  /* border-radius: 16px;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%); */
+  border-radius: 16px;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.5)
 }
 .online-game:hover .play-buttons{
   visibility: visible;
 }
 .play-buttons{
+  transition: all 2s;
+
   visibility: hidden;
   gap: 20px;
   align-items: center;
@@ -286,6 +291,8 @@ nav {
 }
 .play-buttons>span{
   color:#ff42a5;
+  font-size: 16px;
+  font-weight: 600;
   
 }
 
