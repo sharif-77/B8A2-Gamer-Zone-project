@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.primary-clr{
+
+}
+.bg-primary{
+
+}
+.btn{
+    color: ;
+    background-color: ;
+    padding: 12px 30px;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+/* sheared style end */
