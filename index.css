@@ -252,8 +252,41 @@ nav {
   gap: 20px;
   grid-template-columns: repeat(4, 1fr);
 }
-.online-game > img {
+.online-game>img {
   width: 100%;
+  margin-bottom: 20px;
+}
+.online-game{
+  position: relative;
+  transition: all 5s;
+  
+}
+.online-game>:hover {
+
+  opacity: 0.3;
+  /* border-radius: 16px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%); */
+}
+.online-game:hover .play-buttons{
+  visibility: visible;
+}
+.play-buttons{
+  visibility: hidden;
+  gap: 20px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) 
+}
+.play-buttons>img{
+  width: 50px;
+}
+.play-buttons>span{
+  color:#ff42a5;
+  
 }
 
 /* online game cards end */
@@ -289,7 +322,6 @@ nav {
   font-family: Work Sans;
   font-size: 40px;
   font-weight: 700;
-  /* line-height: 60px */
 }
 .play-game-online-item-text > p {
   margin-top: 20px;
@@ -313,19 +345,35 @@ nav {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  /* transition: all 0.5s; */
+
+  
 }
 
 .game-item {
   gap: 15px;
   display: flex;
   align-items: center;
+  padding: 5px;
+  border-radius: 45px;
+  transition: border 1s ;
+  border: none;
+  border: 3px solid transparent;
 }
 .game-item > span {
-  color: #0b0223;
-  font-family: Work Sans;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 600;
+    color: #0b0223;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+}
+.game-item:hover{
+    border: 3px solid #ff42a5;
+
+}
+.game-item:hover .game-span{
+    color:  #ff42a5;
+
 }
 /* games section end */
 
